@@ -1,0 +1,28 @@
+{
+  "name": "@epicollect5/capacitor-plugin-theme",
+  "version": "1.0.0",
+  "description": "Epicollect5 native theme plugin: pins Android night mode and iOS interface style/tint to the in-app Light/Dark/System choice",
+  "author": "Epicollect5",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epicollect5/capacitor-plugin-theme.git"
+  },
+  "files": [
+    "android/src/main/",
+    "android/build.gradle",
+    "ios/Plugin/",
+    "Epicollect5CapacitorPluginTheme.podspec"
+  ],
+  "peerDependencies": {
+    "@capacitor/core": ">=8.0.0"
+  },
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  }
+}
